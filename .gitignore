@@ -1,21 +1,30 @@
-# Python virtual environment
+# Virtual environment
 .venv/
 venv/
 env/
 
-# Downloaded datasets
-data/
-
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
 
-# Jupyter temporary files
+# Jupyter
 .ipynb_checkpoints/
 
-# Environment variables and secrets
-.env
+# Dataset
+data/
 
-# Operating system files
+# Model files
+*.pth
+*.pt
+*.onnx
+
+# VS Code
+.vscode/
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Python environment files
+.env
